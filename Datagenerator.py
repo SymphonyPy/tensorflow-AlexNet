@@ -25,7 +25,7 @@ class ImageDataGenerator:
             self.labels = []
             for line in lines:
                 items = line.split()
-                item = items[0].split("#")[0]
+                item = items[0]
                 label = items[1]
                 print(item, label)
                 self.images.append(item)

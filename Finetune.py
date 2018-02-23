@@ -37,8 +37,8 @@ def test_image(path_image, num_class, path_classes, weights_path='Default'):
 
 
 def trainModels():
-    train_file = 'E:/x/discription.txt'
-    val_file = 'E:/x/discription.txt'
+    train_file = 'train.txt'
+    val_file = 'val.txt'
     learning_rate = 0.01
     num_epochs = 10
     batch_size = 1
